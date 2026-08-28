@@ -25,6 +25,16 @@ export default function Home() {
             </code>
           </h1>
         </div>
+        <footer className="flex w-full justify-center sm:justify-start">
+          <a
+            href="/resume.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full border border-solid border-transparent bg-foreground text-background transition-colors flex items-center justify-center gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
+          >
+            Resume
+          </a>
+        </footer>
       </main>
     </div>
   );
